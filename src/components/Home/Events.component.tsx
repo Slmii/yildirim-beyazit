@@ -41,7 +41,10 @@ export const Events = () => {
 				<Box
 					position='relative'
 					sx={{
-						display: ['none', 'none', 'block']
+						display: ['none', 'none', 'block'],
+						'& *': {
+							minWidth: 'unset'
+						}
 					}}
 				>
 					<Carousel

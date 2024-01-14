@@ -1,0 +1,201 @@
+{
+    "title": "Yıldırım Beyazıt Cami",
+    "subTitle": "Yıldırım Beyazıt Cami Emmen'de Angelslo mahallesinde bulunan bir camidir",
+    "contact": {
+        "title": "Bize ulaşın",
+        "description": "Bir sorunuz veya yorumunuz mu var? Aşağıdaki formu kullanarak bizimle iletişime geçin. En kısa sürede sizinle iletişime geçeceğiz.",
+        "email": "E-posta",
+        "address": "Adres",
+        "form": {
+            "name": "İsim",
+            "email": "E-posta adresi",
+            "message": "Mesaj",
+            "phone": "Telefon numarası",
+            "send": "Gönder"
+        }
+    },
+    "aboutUs": "Hakkımızda",
+    "pillars": {
+        "islam": {
+            "title": "İslamın 5 şartı",
+            "description": "İslam’ın şartları tüm Müslümanlar için geçerli olmaktadır. Müslümanların bu şartları bilmesi gerekir. İslam’ın 5 şartı bulunmaktadır.",
+            "shahada": "Şehadet getirmek",
+            "salah": "Namaz kılmak",
+            "sawm": "Oruç tutmak",
+            "zakat": "Zekat vermek",
+            "hajj": "Hac etmek"
+        },
+        "imaan": {
+            "title": "İmanın 6 şartı",
+            "description": "Allah’a imanın geçerli olabilmesi için de şu altı şarta eksiksiz olarak iman edilmesi gereklidir. İmanın 6 şartı:",
+            "tawheed": "Allah’a inanmak",
+            "malaikah": "Melekler’e inanmak",
+            "kutub": "Kitaplar’a inanmak",
+            "rusul": "Peygamberler’e inanmak",
+            "lastDay": "Ahiret gününe inanmak",
+            "qadr": "Kaderin, hayrın ve şerrin Allah'tan geldiğine inanmak"
+        }
+    },
+    "member": {
+        "title": "Camimize üye olun",
+        "description": "Üye olarak, camiye aylık bir miktarla destek olursunuz. Aylık €10 itibaren üye olabilirsiniz.",
+        "button": "Üye olun",
+        "members": "Üyeler"
+    },
+    "events": {
+        "title": "Etkinlikler",
+        "subtitle": "Yaklaşan etkinlikler",
+        "1": {
+            "title": "Umre workshop",
+            "description": "Umre ibadetini öğrenmek için workshop. Workshop cami imamı tarafından verilecektir ve Türkçe olacaktır. Gerekirse Hollandaca tercüme yapılacaktır."
+        },
+        "2": {
+            "title": "Iftar yemeği",
+            "description": "Cami'de iftar yemeği. Herkes davetlidir."
+        },
+        "3": {
+            "title": "Iftar yemeği",
+            "description": "Cami'de iftar yemeği. Herkes davetlidir."
+        },
+        "days": "Gün",
+        "hours": "Saat",
+        "minutes": "Dakika",
+        "seconds": "Saniye",
+        "all": "Tüm etkinlikleri göster"
+    },
+    "services": {
+        "title": "Hizmetler",
+        "quranLesson": "Kur'an dersi",
+        "quranLessonYouth": "Gençler için Kur'an dersi",
+        "sundayProgram": "Pazar programı",
+        "youthProgram": "Gençlik programı",
+        "openDays": "Açık günler",
+        "more": "Daha fazla bilgi için tıklayınız"
+    },
+    "location": "Konum",
+    "header": {
+        "membership": "Üye ol",
+        "donations": "Bağış",
+        "contact": "İletişim",
+        "services": "Hizmetler",
+        "events": "Etkinlikler",
+        "location": "Konum",
+        "islam": "İslam nedir?",
+        "funeralFund": "Cenaze fonu",
+        "religiousDays": "Dini günleri"
+    },
+    "prayerTimes": {
+        "title": "Namaz vakitleri",
+        "fajr": "Sabah",
+        "shoeroeq": "Güneş",
+        "dhuhr": "Öğle",
+        "asr": "İkindi",
+        "maghrib": "Akşam",
+        "isha": "Yatsı"
+    },
+    "membership": {
+        "title": "Yıldırım Beyazıt Cami Üyelik Başvuru Formu",
+        "subTitle": "Yıldırım Beyazıt Cami üyesi olmak için aşağıdaki formu doldurunuz.",
+        "name": "Ad ve Soyad",
+        "birthday": "Doğum Tarihi",
+        "address": "Adres",
+        "zip": "Posta Kodu",
+        "city": "Şehir",
+        "email": "E-posta Adresi",
+        "phone": "Telefon Numarası",
+        "bank": "IBAN numarası",
+        "amount": "Aylık Aidat Miktarı",
+        "submit": "Gönder",
+        "back": "GERİ",
+        "add": "Ekle",
+        "update": "Güncelle",
+        "cancel": "İptal",
+        "success": "Başvurunuz için teşekkür ederiz!",
+        "agreement": {
+            "title": "Sözleşme",
+            "text": "{{name}} yukarıda belirtilen banka hesabından aylık {{amount}} aidat çekilmesi için ISN Yıldırım Beyazıt Cami’ye süresiz yetki vermektedir."
+        },
+        "date": "Tarih"
+    },
+    "islam": {
+        "islam": {
+            "title": "Islamiyet",
+            "subtitle": "Hak Dinin Kemale Ermesi.",
+            "p1": "Hak din, ilk insan ve ilk peygamber Hz.Adem’le başlamıştır. Esas itibariyle hak dinin temel prensiplerinde değişiklik yoktur. Fakat kabiliyetlerin, zaman ve mekanın, sosyal şartların değişmesine ve gelişmesine bağlı olarak ibadet şekilleri ve bazı hükümlerde değişiklikler olmuştur. Peygamberlerin getirdiği esaslarla insanlar yükseldikçe, fikirler geliştikçe, medeniyet ilerledikçe Allah (c.c) peygamberleriyle ortaya koyduğu dinlerini de tekamül ettirmiş, bu tekamül, Musevilik ve Hıristiyanlığı da aşarak İslâm’da kemale ermiştir. Aynı şekilde sahifeler halinde başlayan ilahi kitaplar, Tevrat ve İncili de geçerek kıyamete kadar sürecek olan sonsuz mucize Kur’an-ı Kerim’le noktalanmıştır. Artık bundan sonra ilahi kitap gelmeyecek ve Kur’an, kıyamete kadar insanlığın rehberi olacaktır. İslâm dini hak dinlerin sonuncusudur.",
+            "p2": "Belirli bir topluma değil bütün insanlığa gönderilmiştir. Hak dinin ulaştığı kemal nokta olması münasebetiyle kıyamete kadar insanlığın tabi olacağı hak din olarak devam edecektir. İslâm Dini, daha önceki hak dinlerin temelini doğrulamaktadır. Ancak İslâm dini geldikten sonra onlara ihtiyaç kalmamıştır. Kur’an-ı Kerim nazil olduktan sonra da diğer ilahi kitaplara ihtiyaç kalmamıştır. Çünkü Kur’an-ı Kerim, diğer kitaplarında ihtiva ettiği Allah’ın varlığına ve birliğine, Peygamberlerine, kitaplarına, meleklerine, Ahiret gününe ve her şeyin Allah’ın takdiriyle meydana geldiğine inanan neslin, aklin ve dinin korunması gibi hak dinin temel esaslarını yeniden ortaya koymuş; daha önceki kitaplarda yer alan gerçekleri tasdik etmiş, tahrif edilen hususları da düzeltmiştir.",
+            "p3": "İslâm Dini, son hak din olduğu için hak dinin temel prensipleri kesin bir şekilde ortaya konarak, zamana ve mekana göre değişebilecek nitelikte hükümler, ilim adamlarının içtihatlarına bırakılmıştır. Müslümanlığın kıyamete kadar sürmesini ve her asırda hak din niteliğini devam ettirmesini sağlayan da bu niteliğidir.",
+            "p4": "İslâm’a giriş, imanla gerçekleşir. İman, Allah Teâlânın Hz.Muhammed’e indirdiği, o’nun da insanlara tebliğ ettiği kesin olarak belli olan şeylerin tümüne tereddütsüz inanmak ve onaylamaktır. İmanın temelini, iste bu kabul ve onaylama oluşturur.",
+            "p5": "Müslüman olmak isteyen kişi bu kabul ve tasdikini “Şehadet ederim ki, Allah’tan başka tanrı yoktur ve yine şehadet ederim ki Hz. Muhammed O’nun kulu ve elçisidir” mealindeki “Eşhedü en la ilahe illallah ve eşhedü enne Muhammeden abdühü ve rasülüh” cümlesiyle açıklar. Bu cümleye “Kelime-i Şehadet” denir.",
+            "p6": "İman, bilerek, isteyerek benimseyerek inanmaktır. Bir kimse kalben inanmadığı halde diliyle bu cümleyi söylese iman etmiş olmaz. Kelime-i şehadeti söyleyen kimse, son ilahi kitap Kur’an-ı Kerim’i bütünüyle benimsemiş ve Allah’ın son peygamber Hz. Muhammed’e vahiy yoluyla bildirdiği, Onun da insanlara tebliğ ettiği her şeyi tamamen kabul etmiş demektir. Bu sebeple Allah’ın varlığına ve birliğine imanın yanında; meleklerin varlığına Allah’ın gönderdiği kitapların gerçek olduğuna, peygamberlere, Ahiret gününe her şeyin Allah’ın takdiriyle meydana geldiğine, kısacası Kur’an-ı Kerim’in ve peygamberimiz Hz. Muhammed’in kesin ve net olarak bildirdiği şeylerin hepsine inanmak imanın şartıdır. “Kelime-i Şehadet” bütün bunları topluca kabul ve tasdik etmeyi ifade eden bir anahtar cümledir. Bu yüzden Kelime-i Şehadet, İslâm’a giriş sözleşmesi yapmak gibidir. Bu sözleşmeyi yapan insan, Allah’a büyük bir söz vermiş, O’nun emirlerini tereddütsüz bir şekilde kabul edip yerine getirmeyi,yasaklarından kaçınmayı benimsemiş olmaktadır. Kelime-i Şehadeti söyleyerek yaptığımız sözleşmeye bütün mahlukat şahit oluyor. Şayet bu sözleşmeyi bozarsak, sözümüzden döndüğümüze şahit olan veya bu sözleşmeye aykırı hareket ettiğimize tanık olan yeryüzündeki ve gökyüzündeki her şey Allah’ın huzurunda aleyhimize şahitlik edecektir.",
+            "p7": "Ayrıca, bu sözleşme ile müslüman toplumun bir ferdi haline gelmiş oluyoruz. Müslümanlarla evlenme, zekat alma, verme, müslümanlarla her türlü dayanışma bu sözleşmenin kapsamına girmektedir.",
+            "p8": "İman etmek için kimse zorlanamaz. İslâm’a girmek isteyen kendi isteğiyle girer. İman etmeden önce araştırma yapılabilir, kafada oluşan her türlü tereddüt ve şüphenin cevabi aranabilir. Ancak iman ettikten sonra iyi bir mümin, iyi bir müslüman olabilmek için kalpten her türlü tereddüdü söküp atmak gerekir. Çünkü imanla tereddüt bir arada olmaz. Bu yüzden iman, insanin kalbinin derinliklerine öylesine kök salmalı ki onu İslâm’a aykırı davranışlardan alıkoymalı, onun zihniyetinin, ahlakinin ve davranışlarının İslâm’a göre şekillenmesine imkan vermeli.",
+            "p9": "İslâm’a girmek için herhangi bir aracıya ihtiyaç yoktur. Bir kimse yukarıda belirttiğimiz hususlara inanmak suretiyle kendiliğinden İslâm’a girebilir.Bu hususta başkaları kendisine ancak bilgi vererek yardımcı olabilirler. İslâm’a giren kimse kendisine, tam bir inanç berraklığı kazandıracak kaynağa ulaşmış olmaktadır. Böylece önemli bir inanç değişiminden sonra ilk fırsatta bir de gusül (boy abdesti) alınmalıdır. Gusül ilerde tarif edilecektir.",
+            "p10": "Belirli bir topluma değil bütün insanlığa gönderilmiştir. Hak dinin ulaştığı kemal nokta olması münasebetiyle kıyamete kadar insanlığın tabi olacağı hak din olarak devam edecektir. İslâm Dini, daha önceki hak dinlerin temelini doğrulamaktadır. Ancak İslâm dini geldikten sonra onlara ihtiyaç kalmamıştır. Kur’an-ı Kerim nazil olduktan sonra da diğer ilahi kitaplara ihtiyaç kalmamıştır. Çünkü Kur’an-ı Kerim, diğer kitaplarında ihtiva ettiği Allah’ın varlığına ve birliğine, Peygamberlerine, kitaplarına, meleklerine, Ahiret gününe ve her şeyin Allah’ın takdiriyle meydana geldiğine inanan neslin, aklin ve dinin korunması gibi hak dinin temel esaslarını yeniden ortaya koymuş; daha önceki kitaplarda yer alan gerçekleri tasdik etmiş, tahrif edilen hususları da düzeltmiştir.",
+            "p11": "İslâm Dini, son hak din olduğu için hak dinin temel prensipleri kesin bir şekilde ortaya konarak, zamana ve mekana göre değişebilecek nitelikte hükümler, ilim adamlarının içtihatlarına bırakılmıştır. Müslümanlığın kıyamete kadar sürmesini ve her asırda hak din niteliğini devam ettirmesini sağlayan da bu niteliğidir."
+        },
+        "Allah": {
+            "title": "Allah (C.C.)",
+            "p1": "İslam dininde Allah (C.C.)’ın birliği inancı en önemli esastır. Allah (C.C.) yaratıklardan hiç birine benzemeyen yüce bir varlıktır. Ezeli ve ebedidir, varlığı kendindendir. Doğmamış, doğurmamıştır. Her türlü noksanlıklardan uzaktır, sonsuz kudret sahibidir, her şeyi bilir, işitir ve görür."
+        },
+        "prophet": {
+            "title": "Hz. Muhammed (A.S.M)",
+            "p1": "Peygamberler, Allah (C.C.) ile insanlar arasında elçidirler. Allah (C.C.) bu göreve en layık olan kullarını seçmiştir. Yüce Allah (C.C.) insanlara yol gösterici olarak zaman zaman Peygamberler göndermiş, onların vasıtasıyla emirlerini ve yasaklarını duyurmuştur. Hz. Muhammed (A.S.M), Yüce Allah (C.C.) ‘ın insanlar arasından seçip gönderdiği son peygamberdir. O, bütün insanlığa gönderilmiştir. Bütün iyi huyları ve faziletleri kendisinde toplayan en güzel örnektir."
+        },
+        "worship": {
+            "title": "İslam’da İbadet",
+            "p1": "İbadet, Yüce Yaratıcı’ya ta’zim ve saygı göstermek ve O’nun bize verdiği sayısız nimetlere karşı şükran borcunu yerine getirmektir.",
+            "p2": "İbadet, yalnız Allah (C.C.)’ın emrini yerine getirmek ve O’nun sevgisini kazanmak maksadıyla yapılır. Böyle temiz bir düşünce ile yapılan ibadet, mü’mini Allah (C.C.)’a yaklaştıran en güzel vasıta; sıkıntılardan koruyan en sağlam sığınaktır.",
+            "p3": "İbadet Allah (C.C.)’ın emrettiği. Peygamberlerin öğrettiği şekilde yapılır. Allah (C.C.)’tan başkasına ibadet yapılmaz.",
+            "p4": "Mü’min, ibadet sayesinde maddi ihtiraslardan kurtularak, ruhen yükselir, içi kötü düşüncelerden, dışı olumsuz davranışlardan arınarak ahlaken olgunlaşır ve Tanrı’nın sevgili kulu olur.",
+            "p5": "Rabbimiz şöyle buyuruyor: “Ey insanlar ! Sizi de, sizden öncekileri de yaratan Rabbinize ibadet ediniz ki, (kötülüklerden) korunup sakınanlar olabilesiniz.” (Bakara Suresi, ayet;21)"
+        },
+        "living": {
+            "title": "İslam’ı Yaşama",
+            "p1": "İslâm’ı öğrenmenin amacı onu hayata geçirmektir. Çünkü hayata geçirilmeyen bir bilginin değeri yoktur. Elde edilen bilgiler hayata geçirilirse bir anlam kazanır. İslâmî bilgileri elde ettiği halde bunları hayata geçirmeyen bir müslümanın hali, hastalığıyla ilgili reçetedeki ilaçları çok iyi bilen fakat bu ilaçları alıp kullanmayan kimsenin haline benzer.İmanı bir tohuma benzetirsek; gerek ibadet gerek ahlak ve muamelat sahasındaki İslâmî esasların hayata geçirilmesi, bu tohumun filizlenip yeşermesine, yaprak açmasına ve meyve vermesine benzer. İnandığı halde bu inancını hayata geçirmeyen kimse, aklında güzel şeyler tasarlayıp bunları uygulamaya koymayan kimse gibidir.İmanı sağlıklı bir şekilde koruyabilmek edebilmek, dünya ve ahiret mutluluğunu elde etmek ve neticede huzurlu olabilmek için mü’min, Yüce Allah’la manen bağlantı kurmak ve bu bağlantıyı devam ettirmek ihtiyacındadır. Çünkü insan, Allah’ı bilmek ve ona ibadet etmekle tam bir huzura kavuşabilir. Yoksa ruhunda daima bir boşluk daima bir sıkıntı duyar. Çünkü yukarıda da belirttiğimiz gibi, fiziki varlığımızı sağlıklı bir şekilde sürdürebilmek için nasıl yeme, içme, uyuma gibi bir takım biyolojik ihtiyaçları gidermek zorundaysak ruhumuzun canlılığını ve diriliğini muhafaza edebilmek ve rûhi melekelerimizi geliştirebilmek için de ibadete ihtiyacımız vardır.",
+            "p2": "İman ettikten sonra bu imanın gereklerini yerine getirmemek, bir çelişki olur. Huzurlu olabilmek için çelişkilerden kurtulmak gerekir. Çünkü çelişkiler içinde bocalayan bir kimsenin huzurlu olması düşünülemez.",
+            "p3": "Müslümanlık bir giyim kuşam ve sekil değişikliğinden veya mücerred bazı sözler söyle mekten ibaret değildir. O bir zihniyettir. İste bu sebeple mü’min, Allah’ın son peygamberi Hz. Muhammed’le kemale erdirdiği dini gönülden ve içten benimseyerek onu hayata geçirme gayreti içinde olur.",
+            "p4": "İbadet, müslüman olduğunu söyleyen kimsenin, bu iddiasında sadık olup olmadığını ortaya koyan en önemli göstergelerden biridir. Çünkü iman ettikten sonra ibadet ihtiyacı kendiliğinden ortaya çıkacaktır. Bizi yoktan var eden, binbir çeşit nimete garkeden, rahmeti, bilgisi, gücü her zerreyi kuşatan, sonsuz kudretin varlığını kabul edip de O’na karsı sonsuz bir hayranlık ve minnet duymamak mümkün müdür? İste ibadet, kulun bu hayranlığını ve minnetini ifade eden bir vasıtadır. İbadet, yalnız birtakım şekillere, diş görünüşlere bağlı hareketlerden ibaret değildir. İbadette esas olan özdür. Huşu olmadan yapılacak bir ibadetin içi bostur.",
+            "p5": "Samimi bir mü’min, her hareketinin ve davranışının Allah’ın rızasına uygun olup olma dığını göz önünde bulundurur. Böyle hareket ettiği takdirde yaptığı her meşru fiil bir ibadet hükmünü almaya baslar.",
+            "p6": "İslâm’a göre, İslâm’a girerken, ibadet ederken, dua yaparken her hangi bir aracıya ihtiyaç yoktur. Her insan doğrudan doğruya Allah’a el açıp yakarabilir. İbadet yapabilir. Günahları af yetkisi de sadece Yüce Allah’a aittir. Allah’tan başka hiç kimse günah affedemez. İlerdeki sahifelerde İslâm’ daki ibadetlerle ilgili kısaca bilgi verilecektir.",
+            "p7": "İslâm ahlakıyla ahlaklanma da İslâm’ı yasamanın en önemli bölümlerinden birini oluşturur. Denilebilirki; hiç bir dinde ve hiç bir düşünce sisteminde İslâm’da güzel ahlaka verilen önem kadar önem verilmemiştir. Hatta Peygamber Efendimiz Hz. Muhammed “Ben ancak ahlaki faziletleri tamamlamak için gönderildim” buyurmuştur. Bu yüzden müslümanın ahlakini güzelleştirmesi en temel hedeflerden biri olmalıdır. Bu amaçla mü’min, İslâm’ın kendinden istediği kişisel ve toplumsal görevlerini öğrenmek ve bunun sonucunda güzel hareketlerle bezenmek, çirkin alışkanlıklardan kaçınmak zorundadır."
+        }
+    },
+    "schema": {
+        "provideValue": "Bir değer giriniz",
+        "minAmount": "En az {{amount}} euro",
+        "provideValidEmail": "Geçerli bir e-posta adresi giriniz",
+        "provideValidIBAN": "Geçerli bir IBAN numarası giriniz"
+    },
+    "months": {
+        "1": "Ocak",
+        "2": "Şubat",
+        "3": "Mart",
+        "4": "Nisan",
+        "5": "Mayıs",
+        "6": "Haziran",
+        "7": "Temmuz",
+        "8": "Ağustos",
+        "9": "Eylül",
+        "10": "Ekim",
+        "11": "Kasım",
+        "12": "Aralık"
+    },
+    "dow": {
+        "1": "Pzt",
+        "2": "Sal",
+        "3": "Çar",
+        "4": "Per",
+        "5": "Cum",
+        "6": "Cmt",
+        "7": "Paz"
+    },
+    "dow-full": {
+        "1": "Pazartesi",
+        "2": "Salı",
+        "3": "Çarşamba",
+        "4": "Perşembe",
+        "5": "Cuma",
+        "6": "Cumartesi",
+        "7": "Pazar"
+    }
+}

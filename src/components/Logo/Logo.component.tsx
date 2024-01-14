@@ -1,0 +1,26 @@
+import { Stack, Typography } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+
+export const Logo = ({ hasMobileText = false }: { hasMobileText?: boolean }) => {
+	const navigate = useNavigate();
+
+	return (
+		<Stack
+			direction='row'
+			alignItems='center'
+			gap={2}
+			sx={{ flexGrow: 1, cursor: 'pointer' }}
+			onClick={() => navigate('/')}
+		>
+			<img src='./images/diyanet.png' alt='Diyanet' height={64} width={64} loading='lazy' />
+			<Typography
+				variant='h6'
+				fontFamily='Amita'
+				component='div'
+				sx={{ display: { xs: !hasMobileText ? 'none' : undefined, md: 'flex' } }}
+			>
+				Yildirim Beyazit Cami
+			</Typography>
+		</Stack>
+	);
+};

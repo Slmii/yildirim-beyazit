@@ -1,0 +1,201 @@
+{
+    "title": "Yildirim Beyazit moskee",
+    "subTitle": "De Yildirim Beyazit moskee is een moskee in de wijk Angelslo in Emmen",
+    "contact": {
+        "title": "Neem contact met ons op",
+        "description": "Heeft u een vraag of opmerking? Neem dan contact met ons op via het onderstaande formulier. Wij zullen dan zo spoedig mogelijk contact met u opnemen.",
+        "email": "Email",
+        "address": "Adres",
+        "form": {
+            "name": "Naam",
+            "email": "E-mailadres",
+            "message": "Bericht",
+            "phone": "Telefoonnummer",
+            "send": "Versturen"
+        }
+    },
+    "aboutUs": "Over ons",
+    "pillars": {
+        "islam": {
+            "title": "De 5 zuilen van de islam",
+            "description": "De vijf zuilen van de islam zijn de vijf belangrijkste religieuze plichten van de islam. De vijf zuilen zijn de basis van de islam en vormen de kern van het geloof. De vijf zuilen zijn:",
+            "shahada": "Geloofsgetuigenis",
+            "salah": "Gebed",
+            "sawm": "Vasten",
+            "zakat": "Aalmoes",
+            "hajj": "Bedevaart"
+        },
+        "imaan": {
+            "title": "De 6 zuilen van het geloof",
+            "description": "De Islam omvat pilaren van geloof en handelingen. Elke moslim is verplicht deze pilaren aan te houden. Er zijn zes zuilen van geloof. Hier dient de moslim in te geloven. De zes zuilen zijn:",
+            "tawheed": "Geloof in Allah",
+            "malaikah": "Geloof in de Engelen",
+            "kutub": "Geloof in de Boeken",
+            "rusul": "Geloof in de Profeten",
+            "lastDay": "Geloof in de Dag der Opstanding",
+            "qadr": "Geloof in het Lot (Qadr)"
+        }
+    },
+    "member": {
+        "title": "Word lid van onze moskee",
+        "description": "Als lid steun je de moskee met een maandelijks bedrag. Je kunt al lid worden vanaf €10 per maand.",
+        "button": "Word lid",
+        "members": "Leden"
+    },
+    "events": {
+        "title": "Evenementen",
+        "subtitle": "Opkomende evenementen",
+        "1": {
+            "title": "Umrah workshop",
+            "description": "Workshop voor het verrichten van de Umrah. De workshop zal worden gegeven door de Imam van de moskee en zal in het Turks zijn met eventuele vertaling naar het Nederlands."
+        },
+        "2": {
+            "title": "Iftar maaltijd",
+            "description": "Er een iftar maaltijd in de moskee. Iedereen is welkom."
+        },
+        "3": {
+            "title": "Iftar maaltijd",
+            "description": "Er een iftar maaltijd in de moskee. Iedereen is welkom."
+        },
+        "days": "Dagen",
+        "hours": "Uren",
+        "minutes": "Minuten",
+        "seconds": "Seconden",
+        "all": "Bekijk alle evenementen"
+    },
+    "services": {
+        "title": "Diensten",
+        "quranLesson": "Koranles",
+        "quranLessonYouth": "Koranles voor de jeugd",
+        "sundayProgram": "Zondagprogramma",
+        "youthProgram": "Jeugdprogramma",
+        "openDays": "Open dagen",
+        "more": "Voor meer details klik hier"
+    },
+    "location": "Locatie",
+    "header": {
+        "membership": "Word lid",
+        "donations": "Doneer",
+        "contact": "Contact",
+        "services": "Diensten",
+        "events": "Evenementen",
+        "location": "Locatie",
+        "islam": "Wat is Islam?",
+        "funeralFund": "Uitvaartfonds",
+        "religiousDays": "Religieuze dagen"
+    },
+    "prayerTimes": {
+        "title": "Onze gebedstijden",
+        "fajr": "Ochtend",
+        "shoeroeq": "Zonsopkomst",
+        "dhuhr": "Middag",
+        "asr": "Namiddag",
+        "maghrib": "Avond",
+        "isha": "Nacht"
+    },
+    "membership": {
+        "title": "Yıldırım Beyazıt Moskee Lidmaatschapformulier",
+        "subTitle": "Om lid te worden van de Yıldırım Beyazıt Moskee, vul het onderstaande formulier in.",
+        "name": "Naam en achternaam",
+        "birthday": "Geboortedatum",
+        "address": "Adres",
+        "zip": "Postcode",
+        "city": "Woonplaats",
+        "email": "E-mailadres",
+        "phone": "Telefoonnummer",
+        "bank": "IBAN nummer",
+        "amount": "Maandelijkse contributie",
+        "submit": "Versturen",
+        "back": "Terug",
+        "add": "Toevoegen",
+        "update": "Bijwerken",
+        "cancel": "Annuleren",
+        "success": "Bedankt voor uw aanmelding!",
+        "agreement": {
+            "title": "Akkoordverklaring",
+            "text": "{{name}} verleent hierbij tot wederopzegging machtiging aan ISN Yildirim Beyazit Moskee, gevestigd aan de Peyserhof 20 te Emmen om van zijn/haar bovenstaande bankrekening maandelijks een bedrag van {{amount}} af te schrijven wegens contributie."
+        },
+        "date": "Datum"
+    },
+    "islam": {
+        "islam": {
+            "title": "Islam",
+            "subtitle": "De Volmaking van de Ware Religie.",
+            "p1": "De ware religie begon met de eerste mens en eerste profeet, Adam. In essentie zijn er geen veranderingen in de fundamentele principes van de ware religie. Maar veranderingen hebben plaatsgevonden in de vormen van aanbidding en sommige regels, afhankelijk van de veranderende en ontwikkelende capaciteiten, tijd, plaats, en sociale omstandigheden. Naarmate mensen zich ontwikkelden met de principes gebracht door de profeten, ideeën evolueerden, en beschaving vooruitging, perfectioneerde Allah (swt) de religie die Hij door zijn profeten presenteerde, en deze evolutie, die zowel het Jodendom als het Christendom overstijgt, heeft zijn voltooiing bereikt in de Islam. Op dezelfde manier zijn de goddelijke boeken, die begonnen als bladen, geëindigd met de eeuwige wonder van de Koran, die zal blijven tot de Dag des Oordeels. Er zullen geen goddelijke boeken meer komen na de Koran, die de gids voor de mensheid zal blijven tot de Dag des Oordeels. De Islam is de laatste van de ware religies.",
+            "p2": "Het is gestuurd naar de hele mensheid, niet alleen een bepaalde gemeenschap. Omdat het het hoogtepunt van de ware religie is, zal het blijven als de ware religie die de mensheid zal volgen tot de Dag des Oordeels. De Islamitische Religie bevestigt de basis van eerdere ware religies. Echter, na de komst van de Islam zijn deze niet meer nodig. Nadat de Koran is geopenbaard, zijn andere goddelijke boeken ook niet meer nodig. Omdat de Koran de fundamentele principes van de ware religie opnieuw presenteert, zoals geloof in het bestaan en de eenheid van Allah, profeten, boeken, engelen, de Dag des Oordeels, en dat alles gebeurt volgens Allah's wil, en bevestigt de waarheden in eerdere boeken en corrigeert de vervalste zaken.",
+            "p3": "De Islamitische Religie, omdat het de laatste ware religie is, zijn de fundamentele principes van de ware religie definitief vastgesteld, en de regels die kunnen veranderen volgens tijd en plaats zijn overgelaten aan de interpretaties van geleerden. Dit kenmerk is wat de voortzetting van de Islam als de ware religie door de eeuwen heen mogelijk maakt.",
+            "p4": "Toetreden tot de Islam wordt gerealiseerd met geloof. Geloof betekent zonder twijfel geloven en accepteren van alles wat duidelijk bekend is gemaakt door Allah aan Mohammed, en wat hij op zijn beurt heeft verkondigd aan de mensen. De basis van geloof wordt gevormd door deze acceptatie en goedkeuring.",
+            "p5": "Iemand die moslim wil worden verklaart deze acceptatie en bevestiging met de zin \"Ik getuig dat er geen god is dan Allah en ik getuig dat Mohammed Zijn dienaar en boodschapper is\", bekend als de \"Shahada\". Dit wordt \"Het Woord van Getuigenis\" genoemd.",
+            "p6": "Geloof betekent bewust en willens accepteren en geloven. Als iemand deze zin zegt zonder te geloven in zijn hart, wordt hij niet beschouwd als gelovig. Een persoon die de Shahada zegt, heeft volledig de laatste goddelijke boek, de Koran, geaccepteerd en alles wat Allah via openbaring aan de laatste profeet, Mohammed, heeft gegeven en wat hij op zijn beurt aan mensen heeft verkondigd. Daarom, naast geloven in het bestaan en de eenheid van Allah; geloven in het bestaan van engelen, dat de door Allah gezonden boeken echt zijn, in profeten, in de Dag des Oordeels, en dat alles gebeurt volgens Allah's wil, kortom, alles wat duidelijk en definitief is aangegeven door de Koran en onze profeet Mohammed, is een voorwaarde voor geloof. De \"Shahada\" is een sleutelzin die al deze acceptatie en bevestiging uitdrukt. Het is als het aangaan van een contract om de Islam te betreden. De persoon die dit contract aangaat, geeft een grote belofte aan Allah, accepteert onvoorwaardelijk Zijn bevelen en vermijdt Zijn verboden. Alles in de schepping is getuige van dit contract. Als we dit contract verbreken, zal alles wat getuige was van onze belofte of van onze acties die in strijd zijn met dit contract, tegen ons getuigen in de aanwezigheid van Allah.",
+            "p7": "Bovendien, door dit contract, worden we een lid van de moslimgemeenschap. Huwelijk met moslims, het geven en ontvangen van zakat, en alle soorten solidariteit met moslims vallen onder de reikwijdte van dit contract.",
+            "p8": "Niemand kan worden gedwongen om te geloven. Iemand die de Islam wil betreden doet dit uit eigen wil. Voordat men gelooft, kan men onderzoek doen, elke twijfel en vraag die in de geest opkomt kan worden onderzocht. Echter, nadat men gelooft, is het noodzakelijk om elke twijfel uit het hart te verwijderen om een goede gelovige, een goede moslim te zijn. Omdat geloof en twijfel niet samen kunnen gaan. Daarom moet geloof zo diep in het hart van een persoon wortelen dat het hem weerhoudt van handelingen die in strijd zijn met de Islam, en het moet mogelijk maken dat zijn mentaliteit, moraliteit, en gedragingen worden gevormd volgens de Islam.",
+            "p9": "Om toe te treden tot de Islam is geen tussenpersoon nodig. Een persoon kan zichzelf moslim maken door te geloven in de hierboven genoemde zaken. Anderen kunnen alleen helpen door informatie te verstrekken. Een persoon die toetreedt tot de Islam heeft toegang gekregen tot een bron die volledige geloofszuiverheid zal bieden. Daarom, na een belangrijke geloofsverandering, moet men zo snel mogelijk een ghusl (volledige lichamelijke wassing) ondergaan. Ghusl zal later worden beschreven.",
+            "p10": "Het is niet alleen naar een bepaalde gemeenschap gestuurd, maar naar de gehele mensheid. Aangezien het het toppunt van de ware religie heeft bereikt, zal het blijven voortbestaan als de ware religie die de mensheid tot de Dag des Oordeels zal volgen. De Islamitische Religie bevestigt de basis van eerdere ware religies. Echter, na de komst van de islam waren deze niet meer nodig. Nadat de Koran was geopenbaard, waren andere goddelijke boeken ook niet meer nodig. Omdat de Koran opnieuw de fundamentele principes van de ware religie heeft uiteengezet, zoals geloof in het bestaan en de eenheid van God, profeten, boeken, engelen, de Dag des Oordeels, en dat alles gebeurt volgens God's wil. Het heeft de waarheden in eerdere boeken bevestigd en de vervalste zaken gecorrigeerd.",
+            "p11": "De Islamitische Religie, als de laatste ware religie, heeft de fundamentele principes van de ware religie definitief vastgesteld, terwijl regels die kunnen veranderen naargelang tijd en plaats overgelaten worden aan de interpretatie van geleerden. Dit kenmerk zorgt ervoor dat de Islam tot de Dag des Oordeels voortduurt en in elk tijdperk zijn karakter als de ware religie behoudt."
+        },
+        "Allah": {
+            "title": "Allah (Subhanahu wa Ta'ala)",
+            "p1": "In de islamitische religie is het geloof in de eenheid van Allah (Subhanahu wa Ta'ala) het meest fundamentele principe. Allah (Subhanahu wa Ta'ala) is een verheven wezen dat niet op enige van Zijn schepsels lijkt. Hij is eeuwig en oneindig, Zijn bestaan komt van Hemzelf. Hij is niet geboren, noch heeft Hij verwekt. Hij is vrij van alle tekortkomingen, bezit oneindige macht, weet alles, hoort alles en ziet alles."
+        },
+        "prophet": {
+            "title": "Profeet Muhammed (V.Z.M.H.)",
+            "p1": "Profeten zijn boodschappers tussen Allah (Subhanahu wa Ta'ala) en de mensen. Allah (Subhanahu wa Ta'ala) heeft de meest waardige van Zijn dienaren gekozen voor deze taak. De Allerhoogste Allah (Subhanahu wa Ta'ala) heeft van tijd tot tijd profeten gestuurd als gidsen voor de mensen, en via hen Zijn bevelen en verboden bekendgemaakt. De Profeet Mohammed (Vrede Zij Met Hem) is de laatste profeet die door de Allerhoogste Allah (Subhanahu wa Ta'ala) onder de mensen is gekozen en gestuurd. Hij is naar de gehele mensheid gestuurd. Hij is het mooiste voorbeeld die alle goede eigenschappen en deugden in zich verenigt."
+        },
+        "worship": {
+            "title": "Aanbidding in de Islam",
+            "p1": "Aanbidding is het tonen van respect en eerbied voor de Verheven Schepper en het vervullen van onze dankbaarheid voor de talloze zegeningen die Hij ons heeft gegeven.",
+            "p2": "Aanbidding wordt uitsluitend gedaan om de bevelen van Allah (Subhanahu wa Ta'ala) te vervullen en Zijn liefde te winnen. Aanbidding, gedaan met zo'n zuivere gedachte, is het mooiste middel dat een gelovige dichter bij Allah (Subhanahu wa Ta'ala) brengt; het is de stevigste toevlucht die beschermt tegen moeilijkheden.",
+            "p3": "Aanbidding wordt gedaan zoals Allah (Subhanahu wa Ta'ala) heeft bevolen en de profeten hebben onderwezen. Er wordt geen aanbidding gedaan aan iemand anders dan Allah (Subhanahu wa Ta'ala).",
+            "p4": "Door aanbidding bevrijdt de gelovige zich van materiële hebzucht, stijgt spiritueel, wordt gezuiverd van slechte gedachten van binnen en negatieve gedragingen van buiten, en wordt moreel volwassen en een geliefde dienaar van God.",
+            "p5": "Onze Heer zegt: \"O mensen! Aanbid jullie Heer, Die jullie en degenen voor jullie heeft geschapen, opdat jullie godvrezend mogen zijn.\" (Koran, Surah Al-Baqarah, vers 21)"
+        },
+        "living": {
+            "title": "Leven volgens de Islam",
+            "p1": "Het doel van het leren van de Islam is om het in het leven toe te passen. Want kennis die niet wordt toegepast is waardeloos. Verworven kennis krijgt betekenis als het wordt toegepast. De toestand van een moslim die Islamitische kennis heeft maar het niet toepast, is vergelijkbaar met die van een persoon die precies weet welke medicijnen op zijn recept staan, maar ze niet inneemt. Als we geloof vergelijken met een zaadje; dan is de toepassing van Islamitische principes op het gebied van aanbidding, moraliteit en transacties het kiemen, groeien, bladeren ontwikkelen en vruchten dragen van dit zaadje. Iemand die gelooft maar dit geloof niet in praktijk brengt, is als iemand die mooie dingen bedenkt maar ze niet uitvoert. Om geloof op een gezonde manier te kunnen behouden, werelds en hiernamaals geluk te bereiken en uiteindelijk vrede te vinden, moet een gelovige spiritueel verbonden blijven met de Allerhoogste Allah. Want alleen door God te kennen en Hem te aanbidden, kan een mens ware vrede vinden. Anders zal er altijd een leegte, een onrust in de ziel zijn. Want net zoals we bepaalde biologische behoeften zoals eten, drinken, slapen moeten vervullen om ons fysieke bestaan te onderhouden, hebben we aanbidding nodig om onze spirituele vitaliteit en levendigheid te behouden en onze spirituele faculteiten te ontwikkelen.",
+            "p2": "Na geloofd te hebben, het niet nakomen van de vereisten van dat geloof, zou een contradictie zijn. Om vrede te vinden, moet men ontsnappen van contradicties. Want een persoon die worstelt met contradicties kan niet geacht worden in vrede te zijn.",
+            "p3": "Het zijn van een moslim gaat niet alleen over het veranderen van kleding of het uitspreken van enkele woorden. Het is een mentaliteit. Daarom neemt een gelovige de religie die door Allah's laatste profeet, Mohammed, tot voltooiing is gebracht, hartelijk en oprecht aan en streeft ernaar deze in het leven te implementeren.",
+            "p4": "Aanbidding is een van de belangrijkste indicatoren die aantonen of iemand die beweert moslim te zijn waarachtig is in zijn claim. Want na het geloven zal de behoefte aan aanbidding vanzelf ontstaan. Is het mogelijk om niet te voelen een oneindige bewondering en dankbaarheid voor de Entiteit die ons uit het niets heeft geschapen, ons ondergedompeld heeft in allerlei soorten gunsten, wiens genade, kennis, kracht elk atoom omvat, en een oneindige macht heeft? Aanbidding is een middel voor een dienaar om deze bewondering en dankbaarheid uit te drukken. Aanbidding is niet alleen gebonden aan bepaalde vormen of uiterlijke handelingen. Wat belangrijk is in aanbidding is de essentie. Een aanbidding zonder devotie is leeg van binnen.",
+            "p5": "Een oprechte gelovige houdt altijd in gedachten of elk van zijn acties en gedragingen in overeenstemming zijn met de wil van Allah. Als hij zo handelt, begint elke legitieme daad die hij doet het karakter van aanbidding aan te nemen.",
+            "p6": "Volgens de Islam is er geen tussenpersoon nodig bij het binnengaan van de Islam, bij het aanbidden, bij het bidden. Elk individu kan direct tot Allah roepen en bidden. Alleen de Allerhoogste Allah heeft de autoriteit om zonden te vergeven. Niemand anders dan Allah kan zonden vergeven. Er zal kort informatie worden gegeven over de aanbiddingen in de Islam in de volgende pagina's.",
+            "p7": "Zich tooien met Islamitische moraliteit is ook een van de belangrijkste onderdelen van het leven volgens de Islam. Het kan gezegd worden dat in geen enkele religie of denksysteem zoveel belang wordt gehecht aan goede moraliteit als in de Islam. Zelfs de Profeet Mohammed zei: \"Ik ben slechts gezonden om deugden te voltooien.\" Daarom zou het verfraaien van de moraliteit van een moslim een van de belangrijkste doelen moeten zijn. Met dit doel moet een gelovige de persoonlijke en sociale verplichtingen die de Islam van hem verlangt leren en als resultaat zich tooien met mooie handelingen, lelijke gewoonten vermijden."
+        }
+    },
+    "schema": {
+        "provideValue": "Vul een waarde in",
+        "minAmount": "Minimaal {{amount}} euro",
+        "provideValidEmail": "Vul een geldig e-mailadres in",
+        "provideValidIBAN": "Vul een geldig IBAN nummer in"
+    },
+    "months": {
+        "1": "Januari",
+        "2": "Februari",
+        "3": "Maart",
+        "4": "April",
+        "5": "Mei",
+        "6": "Juni",
+        "7": "Juli",
+        "8": "Augustus",
+        "9": "September",
+        "10": "Oktober",
+        "11": "November",
+        "12": "December"
+    },
+    "dow": {
+        "1": "Ma",
+        "2": "Di",
+        "3": "Wo",
+        "4": "Do",
+        "5": "Vr",
+        "6": "Za",
+        "7": "Zo"
+    },
+    "dow-full": {
+        "1": "Maandag",
+        "2": "Dinsdag",
+        "3": "Woensdag",
+        "4": "Donderdag",
+        "5": "Vrijdag",
+        "6": "Zaterdag",
+        "7": "Zondag"
+    }
+}

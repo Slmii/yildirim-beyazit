@@ -74,7 +74,7 @@ export const Events = () => {
 				<Stack alignItems='center'>
 					<Button
 						component={Link}
-						href='/islam'
+						href='/events'
 						variant='contained'
 						size='large'
 						sx={{

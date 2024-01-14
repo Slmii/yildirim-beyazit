@@ -33,7 +33,7 @@ export const Contact = () => {
 				alignItems: 'center',
 				justifyContent: 'center',
 				gap: 5,
-				py: PADDING
+				pt: PADDING
 			}}
 		>
 			<Stack direction={['column', 'column', 'row']} justifyContent='center' gap={5}>
@@ -92,9 +92,9 @@ export const Contact = () => {
 					display: 'flex',
 					flexDirection: 'column',
 					gap: 4,
-					px: 10,
+					px: [4, 4, 10],
 					py: 5,
-					// marginBottom: -10,
+					marginBottom: -10,
 					position: 'relative',
 					zIndex: 1
 				}}

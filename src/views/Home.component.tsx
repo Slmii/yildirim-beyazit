@@ -1,4 +1,4 @@
-import { Pillars, Main, Prayers, Services, About, Contact, Member } from 'components/Home';
+import { Pillars, Main, Prayers, Services, Location, About, Contact, Member, Events } from 'components/Home';
 
 export const HomeView = () => {
 	return (
@@ -8,10 +8,10 @@ export const HomeView = () => {
 			<Prayers />
 			<Services />
 			<Pillars />
-			{/* <Events /> */}
+			<Events />
 			<Member />
 			<Contact />
-			{/* <Location /> */}
+			<Location />
 		</>
 	);
 };

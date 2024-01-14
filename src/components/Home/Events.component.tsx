@@ -61,13 +61,13 @@ export const Events = () => {
 						}
 					}}
 				>
-					<Box className='embla__container'>
+					<div className='embla__container'>
 						{futureEvents.map(event => (
 							<div className='embla__slide' key={event.id}>
 								<UpcomingEvent event={event} />
 							</div>
 						))}
-					</Box>
+					</div>
 					<ButtonGroup next={() => emblaApi?.scrollNext()} previous={() => emblaApi?.scrollPrev()} />
 				</Box>
 				<Link href='/events' fontFamily='Amita' variant='h5' textAlign='center' color='primary.main'>

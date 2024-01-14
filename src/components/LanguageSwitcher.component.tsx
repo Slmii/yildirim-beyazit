@@ -37,7 +37,13 @@ export const LanguageSwitcher = ({ size = 'medium' }: { size?: 'small' | 'medium
 					<Box component='img' src={language?.icon} width='100%' alt={language?.name} borderRadius={1} />
 				</ButtonBase>
 			) : (
-				<Button onClick={handleClick} variant='outlined' size={size} startImage={language?.icon} sx={{ px: 4 }}>
+				<Button
+					onClick={handleClick}
+					variant='text'
+					size={size}
+					startImage={language?.icon}
+					sx={{ px: 4, fontFamily: 'Amita', textTransform: 'none' }}
+				>
 					{language?.name}
 				</Button>
 			)}

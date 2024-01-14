@@ -5,7 +5,7 @@ import { Section } from 'components/Section.component';
 import { Title } from 'components/Typography';
 import { EVENTS, PADDING } from 'lib/constants';
 import { getRemainingTime, toReadableDate } from 'lib/utilts';
-import React from 'react';
+import React, { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const EventsView = () => {
@@ -14,19 +14,25 @@ export const EventsView = () => {
 	const firstEvent = EVENTS[0];
 	const remainingEvents = EVENTS.slice(1);
 
-	// Add time to date
-	const date = new Date(firstEvent.date);
-	const time = firstEvent.time.split(':');
-	date.setHours(Number(time[0]));
-	date.setMinutes(Number(time[1]));
+	const { days, hours, minutes } = useMemo(() => {
+		// Add time to date
+		const date = new Date(firstEvent.date);
+		const time = firstEvent.time.split(':');
 
-	const { days, hours, minutes } = getRemainingTime(date);
+		date.setHours(Number(time[0]));
+		date.setMinutes(Number(time[1]));
 
-	const remainingTimeValues = [
-		{ title: 'events.days', value: days },
-		{ title: 'events.hours', value: hours },
-		{ title: 'events.minutes', value: minutes }
-	];
+		return getRemainingTime(date);
+	}, []);
+
+	const remainingTimeValues = useMemo(
+		() => [
+			{ title: 'events.days', value: days },
+			{ title: 'events.hours', value: hours },
+			{ title: 'events.minutes', value: minutes }
+		],
+		[days, hours, minutes]
+	);
 
 	return (
 		<Stack component='section' id='events'>

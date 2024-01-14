@@ -11,5 +11,8 @@ export default defineConfig({
 			lib: path.resolve('./src/lib'),
 			views: path.resolve('./src/views')
 		}
+	},
+	define: {
+		__APP_ENV__: process.env.VITE_VERCEL_ENV
 	}
 });

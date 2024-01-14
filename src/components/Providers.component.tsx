@@ -12,7 +12,6 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useLocation } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import { Analytics } from '@vercel/analytics/react';
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -138,7 +137,6 @@ export const Providers = ({ children }: PropsWithChildren) => {
 							pauseOnFocusLoss
 							theme='colored'
 						/>
-						<Analytics />
 					</QueryClientProvider>
 				</ThemeProvider>
 			</CacheProvider>

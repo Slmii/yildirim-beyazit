@@ -64,10 +64,27 @@ export const Member = () => {
 						{t('member.description')}
 					</SubTitle>
 					<Stack ref={ref}>
-						<Title color='common.white'>
-							<span style={{ minWidth: 80, display: 'inline-flex' }} ref={countUpRef} /> +
+						<Title
+							color='common.white'
+							sx={{
+								textShadow: '#FC0 1px 0 10px'
+							}}
+						>
+							<Box
+								component='span'
+								sx={{ minWidth: [0, 0, 80], display: 'inline-flex' }}
+								ref={countUpRef}
+							/>{' '}
+							+
 						</Title>
-						<Typography color='common.white'>{t('member.members')}</Typography>
+						<Typography
+							sx={{
+								textShadow: '#FC0 1px 0 10px'
+							}}
+							color='common.white'
+						>
+							{t('member.members')}
+						</Typography>
 					</Stack>
 					<Button
 						sx={theme => ({

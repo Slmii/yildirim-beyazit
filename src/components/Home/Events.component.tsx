@@ -7,14 +7,11 @@ import { getRemainingTime, toReadableDate } from 'lib/utilts';
 import { UpcomingEvent } from 'lib/types';
 import { Icon } from 'components/Icon';
 import { Link } from 'components/Link';
-
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import { useState } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
 
 export const Events = () => {
+	const [emblaRef, emblaApi] = useEmblaCarousel({ active: true });
 	const { t } = useTranslation();
-	const [selectedIndex, setSelectedIndex] = useState(0);
 
 	const futureEvents = EVENTS.filter(event => {
 		// Filter out events that have already passed
@@ -39,64 +36,39 @@ export const Events = () => {
 			<Stack gap={4}>
 				<Title textAlign='center'>{t('events.title')}</Title>
 				<Box
-					position='relative'
+					className='embla'
+					ref={emblaRef}
 					sx={{
-						display: ['none', 'none', 'block']
+						borderRadius: 20,
+						height: [undefined, undefined, 560],
+						position: 'relative',
+						backgroundImage: 'url("./images/events/bg.jpeg")',
+						backgroundSize: 'cover',
+						backgroundPosition: 'center',
+						zIndex: 1,
+						py: [4, 4, 0],
+						'&::before': {
+							position: 'absolute',
+							content: '""',
+							top: 0,
+							left: 0,
+							width: '100%',
+							height: '100%',
+							background: '#F6F6F6',
+							zIndex: -11,
+							opacity: 0.7,
+							borderRadius: 20
+						}
 					}}
 				>
-					<Carousel
-						responsive={{
-							desktop: {
-								breakpoint: { max: 3000, min: 1024 },
-								items: 1
-							},
-							tablet: {
-								breakpoint: { max: 1024, min: 464 },
-								items: 1
-							},
-							mobile: {
-								breakpoint: { max: 464, min: 0 },
-								items: 1
-							}
-						}}
-						showDots
-						// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-						// @ts-ignore
-						customDot={<CustomDot />}
-						renderButtonGroupOutside={true}
-						arrows={false}
-						// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-						// @ts-ignore
-						customButtonGroup={<ButtonGroup />}
-					>
+					<Box className='embla__container'>
 						{futureEvents.map(event => (
-							<UpcomingEvent key={event.id} event={event} />
+							<div className='embla__slide' key={event.id}>
+								<UpcomingEvent event={event} />
+							</div>
 						))}
-					</Carousel>
-				</Box>
-				<Box
-					position='relative'
-					sx={{
-						display: ['block', 'block', 'none']
-					}}
-				>
-					<UpcomingEvent event={futureEvents[selectedIndex]} />
-					<ButtonGroup
-						next={() => {
-							if (selectedIndex === futureEvents.length - 1) {
-								setSelectedIndex(0);
-							} else {
-								setSelectedIndex(selectedIndex + 1);
-							}
-						}}
-						previous={() => {
-							if (selectedIndex === 0) {
-								setSelectedIndex(futureEvents.length - 1);
-							} else {
-								setSelectedIndex(selectedIndex - 1);
-							}
-						}}
-					/>
+					</Box>
+					<ButtonGroup next={() => emblaApi?.scrollNext()} previous={() => emblaApi?.scrollPrev()} />
 				</Box>
 				<Link href='/events' fontFamily='Amita' variant='h5' textAlign='center' color='primary.main'>
 					{t('events.all')}
@@ -159,26 +131,6 @@ const ButtonGroup = ({ next, previous }: { next: () => void; previous: () => voi
 	);
 };
 
-const CustomDot = ({ onClick, ...rest }: { onClick: () => void; index: number; active: boolean }) => {
-	const { index, active } = rest;
-
-	return (
-		<ButtonBase
-			onClick={() => onClick()}
-			sx={{
-				width: 10,
-				height: 10,
-				borderRadius: '50%',
-				bgcolor: active ? 'primary.main' : 'transparent',
-				m: 1,
-				border: theme => `1px solid ${theme.palette.primary.main}`,
-				borderColor: ['primary.main', 'primary.main', index <= 2 ? 'white' : 'primary.main'],
-				boxShadow: theme => `0 0 10px ${theme.palette.common.black}`
-			}}
-		/>
-	);
-};
-
 const UpcomingEvent = ({ event }: { event: UpcomingEvent }) => {
 	const { t, i18n } = useTranslation();
 
@@ -197,32 +149,7 @@ const UpcomingEvent = ({ event }: { event: UpcomingEvent }) => {
 	];
 
 	return (
-		<Stack
-			direction='row'
-			spacing={2}
-			sx={{
-				borderRadius: 20,
-				height: [undefined, undefined, 560],
-				position: 'relative',
-				backgroundImage: 'url("./images/events/bg.jpeg")',
-				backgroundSize: 'cover',
-				backgroundPosition: 'center',
-				zIndex: 1,
-				py: [4, 4, 0],
-				'&::before': {
-					position: 'absolute',
-					content: '""',
-					top: 0,
-					left: 0,
-					width: '100%',
-					height: '100%',
-					background: '#F6F6F6',
-					zIndex: -11,
-					opacity: 0.7,
-					borderRadius: 20
-				}
-			}}
-		>
+		<Stack direction='row' spacing={2}>
 			<Grid container>
 				<Grid item xs={12} md={6}>
 					<Stack width='100%' height={[400, 400, 560]} borderRadius={20} alignItems='center' px={[4, 4, 0]}>

@@ -93,7 +93,7 @@ export const EVENTS: UpcomingEvent[] = [
 		location: 'Peyserhof 20'
 	},
 	{
-		id: '8',
+		id: '9',
 		title: 'events.3.title',
 		description: 'events.3.description',
 		date: '04-06-2024',

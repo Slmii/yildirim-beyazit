@@ -74,7 +74,13 @@ export const EventsView = () => {
 					</Grid>
 					<Grid item xs={12} md={6}>
 						<Stack justifyContent='center' height='100%' p={8} spacing={4}>
-							<Stack direction='row' alignItems='center' spacing={2}>
+							<Stack
+								direction={['column', 'row']}
+								alignItems={['flex-start', 'flex-start', 'center']}
+								columnGap={4}
+								rowGap={2}
+								flexWrap='wrap'
+							>
 								<EventDateLocation event={firstEvent} locale={i18n.language} />
 							</Stack>
 							<Typography variant='h4' fontFamily='Amita' fontWeight='bold'>
@@ -99,7 +105,7 @@ export const EventsView = () => {
 					<Divider />
 					{remainingEvents.map(event => (
 						<React.Fragment key={event.id}>
-							<Stack direction='row' alignItems='center' p={4} height='100%' spacing={4}>
+							<Stack direction='row' alignItems='center' p={4} height='100%' gap={4} flexWrap='wrap'>
 								<Stack width={300}>
 									<Typography variant='h4' fontFamily='Amita' fontWeight='bold'>
 										{toReadableDate(new Date(event.date), { locale: i18n.language })}
@@ -108,13 +114,26 @@ export const EventsView = () => {
 										{t(`dow-full.${new Date(event.date).getDay() + 1}`)}
 									</Typography>
 								</Stack>
-								<Divider orientation='vertical' flexItem />
+								<Divider
+									orientation='vertical'
+									flexItem
+									sx={{
+										display: ['none', 'none', 'none', 'block']
+									}}
+								/>
 								<Stack>
 									<Typography gutterBottom variant='h6' fontWeight='bold'>
 										{t(event.title)}
 									</Typography>
-									<Typography variant='body1'>{t(event.description)}</Typography>
-									<Stack spacing={1} mt={2}>
+									<Typography gutterBottom variant='body1'>
+										{t(event.description)}
+									</Typography>
+									<Stack
+										direction={['column', 'row']}
+										alignItems={['flex-start', 'flex-start', 'center']}
+										columnGap={4}
+										flexWrap='wrap'
+									>
 										<EventDateLocation event={event} locale={i18n.language} iconSize='small' />
 									</Stack>
 								</Stack>

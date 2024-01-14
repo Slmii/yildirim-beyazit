@@ -157,7 +157,12 @@ export const Header = () => {
 								))}
 								<LanguageSwitcher />
 							</Stack>
-							<Stack direction='row' gap={1} sx={{ display: { xs: 'flex', md: 'none' } }}>
+							<Stack
+								direction='row'
+								alignItems='center'
+								gap={1}
+								sx={{ display: { xs: 'flex', md: 'none' } }}
+							>
 								<LanguageSwitcher size='small' />
 								<IconButton
 									size='large'

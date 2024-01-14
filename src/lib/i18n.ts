@@ -18,6 +18,12 @@ i18n
 	.init({
 		// debug: true,
 		fallbackLng: 'nl',
+		backend: {
+			loadPath: '/locales/{{lng}}/translation.json',
+			requestOptions: {
+				cache: 'no-store'
+			}
+		},
 		interpolation: {
 			escapeValue: false // not needed for react as it escapes by default
 		}

@@ -89,7 +89,7 @@ export const Pillars = () => {
 					</Stack>
 					<Grid container spacing={2} sx={{ justifyContent: 'center' }}>
 						{pillarsIslam.map((pillar, index) => (
-							<Grid key={pillar.title} item xs={6} md={4} lg={2.4}>
+							<Grid key={pillar.title} item xs={12} sm={6} md={4} lg={2.4}>
 								<Stack
 									spacing={2}
 									mt={[0, 0, index % 2 === 0 ? 0 : 8]}

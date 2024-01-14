@@ -1,4 +1,4 @@
-import { ListItemIcon, Menu, MenuItem } from '@mui/material';
+import { Box, ButtonBase, ListItemIcon, Menu, MenuItem } from '@mui/material';
 import { LANGUAGES } from 'lib/constants';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -26,9 +26,16 @@ export const LanguageSwitcher = ({ size = 'medium' }: { size?: 'small' | 'medium
 
 	return (
 		<>
-			<Button onClick={handleClick} variant='outlined' size={size} startImage={language?.icon} sx={{ px: 4 }}>
-				{language?.name}
-			</Button>
+			{size === 'small' ? (
+				<ButtonBase onClick={handleClick} sx={{ width: 40, height: 'fit-content', borderRadius: 1 }}>
+					<Box component='img' src={language?.icon} width='100%' alt={language?.name} borderRadius={1} />
+				</ButtonBase>
+			) : (
+				<Button onClick={handleClick} variant='outlined' size={size} startImage={language?.icon} sx={{ px: 4 }}>
+					{language?.name}
+				</Button>
+			)}
+
 			<Menu
 				id='language-menu'
 				anchorEl={anchorEl}

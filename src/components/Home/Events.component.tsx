@@ -10,9 +10,11 @@ import { Link } from 'components/Link';
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { useState } from 'react';
 
 export const Events = () => {
 	const { t } = useTranslation();
+	const [selectedIndex, setSelectedIndex] = useState(0);
 
 	const futureEvents = EVENTS.filter(event => {
 		// Filter out events that have already passed
@@ -36,7 +38,12 @@ export const Events = () => {
 		>
 			<Stack gap={4}>
 				<Title textAlign='center'>{t('events.title')}</Title>
-				<Box position='relative'>
+				<Box
+					position='relative'
+					sx={{
+						display: ['none', 'none', 'block']
+					}}
+				>
 					<Carousel
 						responsive={{
 							desktop: {
@@ -66,6 +73,30 @@ export const Events = () => {
 							<UpcomingEvent key={event.id} event={event} />
 						))}
 					</Carousel>
+				</Box>
+				<Box
+					position='relative'
+					sx={{
+						display: ['block', 'block', 'none']
+					}}
+				>
+					<UpcomingEvent event={futureEvents[selectedIndex]} />
+					<ButtonGroup
+						next={() => {
+							if (selectedIndex === futureEvents.length - 1) {
+								setSelectedIndex(0);
+							} else {
+								setSelectedIndex(selectedIndex + 1);
+							}
+						}}
+						previous={() => {
+							if (selectedIndex === 0) {
+								setSelectedIndex(futureEvents.length - 1);
+							} else {
+								setSelectedIndex(selectedIndex - 1);
+							}
+						}}
+					/>
 				</Box>
 				<Link href='/events' fontFamily='Amita' variant='h5' textAlign='center' color='primary.main'>
 					{t('events.all')}
@@ -194,24 +225,26 @@ const UpcomingEvent = ({ event }: { event: UpcomingEvent }) => {
 		>
 			<Grid container>
 				<Grid item xs={12} md={6}>
-					<Stack width='100%' height={560} borderRadius={20} alignItems='center'>
+					<Stack width='100%' height={[400, 400, 560]} borderRadius={20} alignItems='center' px={[4, 4, 0]}>
 						<Box
 							component='img'
 							src={event.img}
-							height={560}
-							width={[500, 500, '100%']}
+							height='100%'
+							width='100%'
 							loading='lazy'
 							sx={{ objectFit: 'cover', borderRadius: 'inherit' }}
 						/>
 					</Stack>
 				</Grid>
 				<Grid item xs={12} md={6}>
-					<Stack justifyContent='center' height='100%' width='100%' gap={2} px={8} mt={[4, 4, 0]}>
+					<Stack justifyContent='center' height='100%' width='100%' gap={2} px={[4, 8]} mt={[4, 4, 0]}>
 						<Title>{t(event.title)}</Title>
-						<EventDateLocation event={event} locale={i18n.language} />
+						<Stack>
+							<EventDateLocation event={event} locale={i18n.language} />
+						</Stack>
 						<Stack
 							mt={2}
-							spacing={5}
+							gap={2}
 							direction='row'
 							alignItems='center'
 							justifyContent={['center', 'center', 'flex-start']}

@@ -67,7 +67,8 @@
         "hours": "Uren",
         "minutes": "Minuten",
         "seconds": "Seconden",
-        "all": "Bekijk alle evenementen"
+        "all": "Bekijk alle evenementen",
+        "noEvents": "Er zijn geen aankomende evenementen"
     },
     "services": {
         "title": "Diensten",

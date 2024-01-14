@@ -22,7 +22,7 @@ export const LanguageSwitcher = ({ size = 'medium' }: { size?: 'small' | 'medium
 	};
 
 	const open = Boolean(anchorEl);
-	const language = LANGUAGES.find(language => language.code === i18n.language);
+	const language = LANGUAGES.find(language => language.code === i18n.language || language.code === 'nl');
 
 	return (
 		<>

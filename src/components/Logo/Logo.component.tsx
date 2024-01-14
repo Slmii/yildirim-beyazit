@@ -28,7 +28,7 @@ export const Logo = ({ hasMobileText = false }: { hasMobileText?: boolean }) => 
 				component='div'
 				sx={{ display: { xs: !hasMobileText ? 'none' : undefined, md: 'flex' } }}
 			>
-				Yildirim Beyazit Cami
+				Yıldırım Beyazıt Cami
 			</Typography>
 		</Stack>
 	);

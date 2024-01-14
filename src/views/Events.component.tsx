@@ -38,7 +38,7 @@ export const EventsView = () => {
 		<Stack component='section' id='events'>
 			<PageHeader
 				src='./images/events/bg2.avif'
-				title={`Yildirim Beyazit ${t('header.events').toLowerCase()}`}
+				title={`Yıldırım Beyazıt ${t('header.events').toLowerCase()}`}
 				backgroundPosition='bottom'
 			/>
 			<Section

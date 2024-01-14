@@ -48,7 +48,7 @@ export const Footer = () => {
 					</Stack>
 				</Box>
 				<Typography variant='body2' textAlign={['center', 'center', 'right']}>
-					© {new Date().getFullYear()} Yildirim Beyazit Cami
+					© {new Date().getFullYear()} Yıldırım Beyazıt Cami
 				</Typography>
 			</Section>
 		</Box>

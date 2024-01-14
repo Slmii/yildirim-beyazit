@@ -1,6 +1,6 @@
 {
-    "title": "Yildirim Beyazit moskee",
-    "subTitle": "De Yildirim Beyazit moskee is een moskee in de wijk Angelslo in Emmen",
+    "title": "Yıldırım Beyazıt moskee",
+    "subTitle": "De Yıldırım Beyazıt moskee is een moskee in de wijk Angelslo in Emmen",
     "contact": {
         "title": "Neem contact met ons op",
         "description": "Heeft u een vraag of opmerking? Neem dan contact met ons op via het onderstaande formulier. Wij zullen dan zo spoedig mogelijk contact met u opnemen.",
@@ -119,7 +119,7 @@
         "success": "Bedankt voor uw aanmelding!",
         "agreement": {
             "title": "Akkoordverklaring",
-            "text": "{{name}} verleent hierbij tot wederopzegging machtiging aan ISN Yildirim Beyazit Moskee, gevestigd aan de Peyserhof 20 te Emmen om van zijn/haar bovenstaande bankrekening maandelijks een bedrag van {{amount}} af te schrijven wegens contributie."
+            "text": "{{name}} verleent hierbij tot wederopzegging machtiging aan ISN Yıldırım Beyazıt Moskee, gevestigd aan de Peyserhof 20 te Emmen om van zijn/haar bovenstaande bankrekening maandelijks een bedrag van {{amount}} af te schrijven wegens contributie."
         },
         "date": "Datum"
     },

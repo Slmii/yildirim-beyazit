@@ -1,4 +1,6 @@
 import { Box, Grid, Paper, Stack, Typography } from '@mui/material';
+import { Button } from 'components/Button';
+import { Link } from 'components/Link';
 import { Section } from 'components/Section.component';
 import { SubTitle, Title } from 'components/Typography';
 import { PADDING, TRANSITION_OPTIONS } from 'lib/constants';
@@ -80,7 +82,7 @@ export const Pillars = () => {
 			}}
 		>
 			<Section>
-				<Stack gap={4}>
+				<Stack gap={4} alignItems='center'>
 					<Stack>
 						<Title textAlign='center' gutterBottom>
 							{t('pillars.islam.title')}
@@ -119,6 +121,20 @@ export const Pillars = () => {
 							</Grid>
 						))}
 					</Grid>
+					<Button
+						component={Link}
+						href='/islam'
+						variant='contained'
+						size='large'
+						sx={{
+							width: 'fit-content',
+							fontFamily: 'Amita',
+							textTransform: 'none',
+							fontSize: 24
+						}}
+					>
+						{t('header.islam')}
+					</Button>
 				</Stack>
 			</Section>
 		</Box>

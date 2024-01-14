@@ -8,6 +8,7 @@ import { UpcomingEvent } from 'lib/types';
 import { Icon } from 'components/Icon';
 import { Link } from 'components/Link';
 import useEmblaCarousel from 'embla-carousel-react';
+import { Button } from 'components/Button';
 
 export const Events = () => {
 	const [emblaRef, emblaApi] = useEmblaCarousel({ active: true });
@@ -70,9 +71,22 @@ export const Events = () => {
 					</div>
 					<ButtonGroup next={() => emblaApi?.scrollNext()} previous={() => emblaApi?.scrollPrev()} />
 				</Box>
-				<Link href='/events' fontFamily='Amita' variant='h5' textAlign='center' color='primary.main'>
-					{t('events.all')}
-				</Link>
+				<Stack alignItems='center'>
+					<Button
+						component={Link}
+						href='/islam'
+						variant='contained'
+						size='large'
+						sx={{
+							width: 'fit-content',
+							fontFamily: 'Amita',
+							textTransform: 'none',
+							fontSize: 24
+						}}
+					>
+						{t('events.all')}
+					</Button>
+				</Stack>
 			</Stack>
 		</Section>
 	);

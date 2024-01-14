@@ -115,7 +115,7 @@ export const EventsView = () => {
 									</Typography>
 									<Typography variant='body1'>{t(event.description)}</Typography>
 									<Stack spacing={1} mt={2}>
-										<EventDateLocation event={firstEvent} locale={i18n.language} iconSize='small' />
+										<EventDateLocation event={event} locale={i18n.language} iconSize='small' />
 									</Stack>
 								</Stack>
 							</Stack>

@@ -9,7 +9,7 @@ export const Footer = () => {
 		<Box
 			component='footer'
 			sx={{
-				p: PADDING,
+				py: PADDING,
 				backgroundColor: 'rgba(0, 0, 0, 0.9)',
 				color: 'common.white'
 			}}

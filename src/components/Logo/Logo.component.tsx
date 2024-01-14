@@ -1,4 +1,4 @@
-import { Stack, Typography } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 export const Logo = ({ hasMobileText = false }: { hasMobileText?: boolean }) => {
@@ -12,7 +12,16 @@ export const Logo = ({ hasMobileText = false }: { hasMobileText?: boolean }) => 
 			sx={{ flexGrow: 1, cursor: 'pointer' }}
 			onClick={() => navigate('/')}
 		>
-			<img src='./images/diyanet.png' alt='Diyanet' height={64} width={64} loading='lazy' />
+			<Box
+				component='img'
+				src='./images/diyanet.png'
+				alt='Diyanet'
+				minHeight={64}
+				minWidth={64}
+				height={64}
+				width={64}
+				loading='lazy'
+			/>
 			<Typography
 				variant='h6'
 				fontFamily='Amita'

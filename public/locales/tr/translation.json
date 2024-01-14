@@ -14,7 +14,13 @@
             "send": "Gönder"
         }
     },
-    "aboutUs": "Hakkımızda",
+    "about": {
+        "title": "Bizim hakkımızda",
+        "1": "1980'lerde, boş binalar belediye tarafından Müslümanlar için ibadet alanı olarak kullanılmak üzere tahsis edildi. Zamanla, büyüyen Emmen Müslüman topluluğu için sabit bir yerin ihtiyacı daha da önemli hale geldi.",
+        "2": "1990'ların başlarında, şu anda caminin bulunduğu arazi satış için tahsis edildi. Ardından, binanın finansmanı için herkes çok çalıştı. Bina tamamen, evliliklerinden önce aldıkları altın takılarını bağışlayan dindar genç kadınlar ve maaşlarını ve tatil ücretlerini bağışlayan çalışkan erkekler tarafından finanse edildi.",
+        "3": "Her Müslüman, bu binanın inşasına para bağışları veya gönüllü işler şeklinde katkıda bulundu. Hep birlikte, hem kendileri hem de gelecek nesiller için bir araya geldiler.",
+        "4": "Sonunda, 2 Ocak 1993 tarihinde Diyanet Vakfı'na katılmaya karar verildi."
+    },
     "pillars": {
         "islam": {
             "title": "İslamın 5 şartı",

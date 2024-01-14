@@ -9,14 +9,25 @@ export const Main = () => {
 		<Stack
 			component='section'
 			width='100%'
+			alignItems='center'
+			justifyContent='center'
 			sx={{
-				justifyContent: 'center',
 				minHeight: '100%',
+				position: 'relative',
 				backgroundImage:
 					'linear-gradient(rgba(194, 14, 27, 0.5), rgba(50, 43, 128, 0.5)), url("./images/banner.jpeg")',
+				backgroundSize: 'cover',
 				backgroundPosition: 'center',
-				backgroundRepeat: 'no-repeat',
-				backgroundSize: 'cover'
+				zIndex: 1,
+				'&::before': {
+					position: 'absolute',
+					content: '""',
+					top: 0,
+					left: 0,
+					width: '100%',
+					height: '100%',
+					zIndex: -11
+				}
 			}}
 		>
 			<Container component='div' maxWidth='xl'>

@@ -14,7 +14,13 @@
             "send": "Versturen"
         }
     },
-    "aboutUs": "Over ons",
+    "about": {
+        "title": "Over ons",
+        "1": "In de jaren '80 werden leegstaande gebouwen door de gemeente beschikbaar gesteld als gebedsruimte voor de moslims. Langzamerhand werd de behoefte voor een vaste plek steeds belangrijker voor de groeiende moslim gemeenschap in Emmen.",
+        "2": "Begin jaren '90 is de grond, waar de moskee nu op staat, beschikbaar gesteld voor verkoop. Om vervolgens het gebouw te bekostigen heeft iedereen hard gewerkt. Het gebouw is volledig bekostigd door de vrome jonge vrouwen, die hun gouden sieraden die ze voor hun huwelijk hebben ontvangen gedoneerd en door de hard werkende mannen die hun salarissen en vakantiegeld hebben gedoneerd.",
+        "3": "Elke moslim heefte een steentje bijgedragen aan de bouw van dit gebouw in de vorm van geld donaties, of vrijwilligerswerk. Met zijn allen de handen in één geslagen voor zowel henzelf als voor de komende generaties.",
+        "4": "Uiteindelijk is er op 2 januari 1993 besloten om aan te sluiten bij de Islamitische Stichting Nederland."
+    },
     "pillars": {
         "islam": {
             "title": "De 5 zuilen van de islam",

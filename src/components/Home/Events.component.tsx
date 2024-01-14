@@ -9,6 +9,7 @@ import { Icon } from 'components/Icon';
 import { Link } from 'components/Link';
 import useEmblaCarousel from 'embla-carousel-react';
 import { Button } from 'components/Button';
+import { NoEvents } from 'views/Events.component';
 
 export const Events = () => {
 	const [emblaRef, emblaApi] = useEmblaCarousel({ active: true });
@@ -41,7 +42,7 @@ export const Events = () => {
 					ref={emblaRef}
 					sx={{
 						borderRadius: 20,
-						height: [undefined, undefined, 560],
+						height: [undefined, undefined, futureEvents.length ? 560 : 'auto'],
 						position: 'relative',
 						backgroundImage: 'url("./images/events/bg.jpeg")',
 						backgroundSize: 'cover',
@@ -62,13 +63,17 @@ export const Events = () => {
 						}
 					}}
 				>
-					<div className='embla__container'>
-						{futureEvents.map(event => (
-							<div className='embla__slide' key={event.id}>
-								<UpcomingEvent event={event} />
-							</div>
-						))}
-					</div>
+					{futureEvents.length ? (
+						<div className='embla__container'>
+							{futureEvents.map(event => (
+								<div className='embla__slide' key={event.id}>
+									<UpcomingEvent event={event} />
+								</div>
+							))}
+						</div>
+					) : (
+						<NoEvents />
+					)}
 					<ButtonGroup next={() => emblaApi?.scrollNext()} previous={() => emblaApi?.scrollPrev()} />
 				</Box>
 				<Stack alignItems='center'>

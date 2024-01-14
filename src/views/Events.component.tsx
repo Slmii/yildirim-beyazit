@@ -194,7 +194,7 @@ export const EventsView = () => {
 	);
 };
 
-const NoEvents = () => {
+export const NoEvents = () => {
 	const { t } = useTranslation();
 
 	return (

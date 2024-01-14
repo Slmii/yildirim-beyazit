@@ -1,12 +1,18 @@
 import { Box, ButtonBase, ListItemIcon, Menu, MenuItem } from '@mui/material';
 import { LANGUAGES } from 'lib/constants';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from 'components/Button';
 
 export const LanguageSwitcher = ({ size = 'medium' }: { size?: 'small' | 'medium' | 'large' }) => {
 	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 	const { i18n } = useTranslation();
+
+	useEffect(() => {
+		if (!['nl', 'tr', 'ar'].includes(i18n.language)) {
+			i18n.changeLanguage('nl');
+		}
+	}, [i18n.language]);
 
 	const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
 		setAnchorEl(event.currentTarget);
@@ -22,7 +28,7 @@ export const LanguageSwitcher = ({ size = 'medium' }: { size?: 'small' | 'medium
 	};
 
 	const open = Boolean(anchorEl);
-	const language = LANGUAGES.find(language => language.code === i18n.language || language.code === 'nl');
+	const language = LANGUAGES.find(language => language.code.split('-')[0] === i18n.language);
 
 	return (
 		<>

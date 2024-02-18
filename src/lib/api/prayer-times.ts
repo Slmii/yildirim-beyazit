@@ -1,4 +1,4 @@
-import { isToday } from 'date-fns';
+import { isAfter, isToday } from 'date-fns';
 
 export interface PrayerTimeResponse {
 	Aksam: string;
@@ -36,8 +36,8 @@ export const prayerTimes = async (): Promise<PrayerTimeResponse[]> => {
 	const fifthPrayerTime = prayerTimes[prayerTimes.length - 5];
 	const fifthPrayerTimeDate = new Date(fifthPrayerTime.MiladiTarihUzunIso8601);
 
-	// If the 5th prayer time is today, we fetch new data
-	if (isToday(fifthPrayerTimeDate)) {
+	// If the 5th prayer is today or later, we fetch new data
+	if (isAfter(new Date(), fifthPrayerTimeDate) || isToday(fifthPrayerTimeDate)) {
 		return fetchPrayerTimes();
 	}
 

@@ -94,7 +94,7 @@ export const Contact = () => {
 					gap: 4,
 					px: [4, 4, 10],
 					py: 5,
-					marginBottom: -10,
+					marginBottom: -5,
 					position: 'relative',
 					zIndex: 1
 				}}

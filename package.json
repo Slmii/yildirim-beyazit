@@ -24,7 +24,6 @@
 		"axios": "^1.6.2",
 		"date-fns": "^2.30.0",
 		"embla-carousel-react": "^8.0.0-rc19",
-		"google-map-react": "^2.2.1",
 		"i18next": "^23.7.11",
 		"i18next-browser-languagedetector": "^7.2.0",
 		"i18next-http-backend": "^2.4.2",
@@ -46,7 +45,6 @@
 	},
 	"devDependencies": {
 		"@tanstack/eslint-plugin-query": "^5.14.6",
-		"@types/google-map-react": "^2.1.10",
 		"@types/iban": "^0.0.35",
 		"@types/node": "^20.10.5",
 		"@types/react": "^18.2.45",

@@ -19,14 +19,7 @@ export const EventsView = () => {
 			return;
 		}
 
-		// Add time to date
-		const date = new Date(firstEvent.date);
-		const time = firstEvent.time.split(':');
-
-		date.setHours(Number(time[0]));
-		date.setMinutes(Number(time[1]));
-
-		return getRemainingTime(date);
+		return getRemainingTime(new Date(firstEvent.date));
 	}, []);
 
 	const remainingTimeValues = remainingTime
@@ -135,7 +128,7 @@ export const EventsView = () => {
 													{toReadableDate(new Date(event.date), { locale: i18n.language })}
 												</Typography>
 												<Typography variant='body1'>
-													{t(`dow-full.${new Date(event.date).getDay() + 1}`)}
+													{t(`dow-full.${new Date(event.date).getDay()}`)}
 												</Typography>
 											</Stack>
 											<Divider

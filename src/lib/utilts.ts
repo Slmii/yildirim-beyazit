@@ -20,7 +20,7 @@ export const toReadableDate = (
 		includeTime?: boolean;
 	}
 ) => {
-	return date.toLocaleDateString(options?.locale ?? 'nl-nl', {
+	return date.toLocaleDateString(options?.locale ?? 'nl-NL', {
 		year: 'numeric',
 		month: 'long',
 		day: '2-digit',

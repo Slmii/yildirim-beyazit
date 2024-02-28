@@ -153,13 +153,7 @@ const ButtonGroup = ({ next, previous }: { next: () => void; previous: () => voi
 const UpcomingEvent = ({ event }: { event: UpcomingEvent }) => {
 	const { t, i18n } = useTranslation();
 
-	// Add time to date
-	const date = new Date(event.date);
-	const time = event.time.split(':');
-	date.setHours(Number(time[0]));
-	date.setMinutes(Number(time[1]));
-
-	const { days, hours, minutes } = getRemainingTime(date);
+	const { days, hours, minutes } = getRemainingTime(new Date(event.date));
 
 	const remainingTimeValues = [
 		{ title: 'events.days', value: days },

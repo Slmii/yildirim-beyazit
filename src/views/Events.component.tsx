@@ -3,6 +3,7 @@ import { EventDateLocation } from 'components/Home';
 import { PageHeader } from 'components/PageHeader';
 import { Section } from 'components/Section.component';
 import { Title } from 'components/Typography';
+import { isAfter, isToday } from 'date-fns';
 import { EVENTS, PADDING } from 'lib/constants';
 import { getRemainingTime, toReadableDate } from 'lib/utilts';
 import React, { useMemo } from 'react';
@@ -11,8 +12,11 @@ import { useTranslation } from 'react-i18next';
 export const EventsView = () => {
 	const { t, i18n } = useTranslation();
 
-	const firstEvent = EVENTS[0];
-	const remainingEvents = EVENTS.slice(1);
+	const eventsAfterToday = EVENTS.filter(
+		event => isToday(new Date(event.date)) || isAfter(new Date(event.date), new Date())
+	);
+	const firstEvent = eventsAfterToday[0];
+	const remainingEvents = eventsAfterToday.slice(1);
 
 	const remainingTime = useMemo(() => {
 		if (!firstEvent) {

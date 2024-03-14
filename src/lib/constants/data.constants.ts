@@ -31,15 +31,6 @@ export const EVENTS: UpcomingEvent[] = [
 	},
 	{
 		id: '2',
-		title: 'events.2.title',
-		description: 'events.2.description',
-		date: '2024-03-13',
-		time: '18:40',
-		img: './images/events/iftar.jpeg',
-		location: 'Peyserhof 20'
-	},
-	{
-		id: '3',
 		title: 'events.3.title',
 		description: 'events.3.description',
 		date: '2024-03-16',
@@ -48,16 +39,7 @@ export const EVENTS: UpcomingEvent[] = [
 		location: 'Peyserhof 20'
 	},
 	{
-		id: '4',
-		title: 'events.3.title',
-		description: 'events.3.description',
-		date: '2024-03-20',
-		time: '18:52',
-		img: './images/events/iftar.jpeg',
-		location: 'Peyserhof 20'
-	},
-	{
-		id: '5',
+		id: '3',
 		title: 'events.3.title',
 		description: 'events.3.description',
 		date: '2024-03-23',
@@ -66,16 +48,7 @@ export const EVENTS: UpcomingEvent[] = [
 		location: 'Peyserhof 20'
 	},
 	{
-		id: '6',
-		title: 'events.3.title',
-		description: 'events.3.description',
-		date: '2024-03-27',
-		time: '19:05',
-		img: './images/events/iftar.jpeg',
-		location: 'Peyserhof 20'
-	},
-	{
-		id: '7',
+		id: '4',
 		title: 'events.3.title',
 		description: 'events.3.description',
 		date: '2024-03-30',
@@ -84,16 +57,7 @@ export const EVENTS: UpcomingEvent[] = [
 		location: 'Peyserhof 20'
 	},
 	{
-		id: '8',
-		title: 'events.3.title',
-		description: 'events.3.description',
-		date: '2024-04-03',
-		time: '20:17',
-		img: './images/events/iftar.jpeg',
-		location: 'Peyserhof 20'
-	},
-	{
-		id: '9',
+		id: '5',
 		title: 'events.3.title',
 		description: 'events.3.description',
 		date: '2024-04-06',

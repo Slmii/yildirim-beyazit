@@ -6,3 +6,4 @@ export * from './Pillars.component';
 export * from './Member.component';
 export * from './Events.component';
 export * from './About.component';
+export * from './Khutbe.component';

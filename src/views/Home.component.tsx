@@ -1,4 +1,4 @@
-import { Pillars, Main, Prayers, Services, About, Contact, Member, Events } from 'components/Home';
+import { Pillars, Main, Prayers, Services, About, Contact, Member, Events, Khutbe } from 'components/Home';
 
 export const HomeView = () => {
 	return (
@@ -6,6 +6,7 @@ export const HomeView = () => {
 			<Main />
 			<About />
 			<Prayers />
+			<Khutbe />
 			<Services />
 			<Pillars />
 			<Events />

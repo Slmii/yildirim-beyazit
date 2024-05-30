@@ -4,7 +4,7 @@ import { SubTitle, Title } from 'components/Typography';
 import { EVENTS, PADDING } from 'lib/constants';
 import { useTranslation } from 'react-i18next';
 import { getRemainingTime, toReadableDate } from 'lib/utilts';
-import { UpcomingEvent } from 'lib/types';
+import type { UpcomingEvent } from 'lib/types';
 import { Icon } from 'components/Icon';
 import { Link } from 'components/Link';
 import useEmblaCarousel from 'embla-carousel-react';
@@ -97,7 +97,7 @@ export const Events = () => {
 	);
 };
 
-const ButtonGroup = ({ next, previous }: { next: () => void; previous: () => void }) => {
+export const ButtonGroup = ({ next, previous }: { next: () => void; previous: () => void }) => {
 	return (
 		<Box
 			position='absolute'

@@ -11,7 +11,7 @@ const ITEMS = [
 	{
 		label: 'contact.address',
 		icon: 'location',
-		description: 'Peysorhof 20\n7824 CP Emmen'
+		description: 'Peyserhof 20\n7824 CP Emmen'
 	},
 	{
 		label: 'contact.email',

@@ -25,7 +25,7 @@ export const DatePicker = ({
 			}}
 			render={({ field, fieldState }) => (
 				<Stack
-					direction="column"
+					direction='column'
 					spacing={0.25}
 					sx={{
 						position: 'relative',
